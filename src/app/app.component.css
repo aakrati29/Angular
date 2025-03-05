@@ -1,0 +1,12 @@
+  h1{
+    text-align: center;
+    color: rgb(53, 10, 10);
+    text-decoration:underline;
+  }
+  
+.image {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
