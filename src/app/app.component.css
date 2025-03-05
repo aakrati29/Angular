@@ -11,3 +11,20 @@
     cursor: pointer;
   }
   
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+  
