@@ -12,5 +12,9 @@ export class AppComponent {
   title = 'First Angular Project';
   logoUrl: string = 'images.jpeg';
   message: string = 'Hello from BridgeLabz';
-  
+  bridgeLabzUrl:string="https://www.bridgelabz.com/";
+
+  openBridgeLabz(): void {
+    window.open(this.bridgeLabzUrl, '_blank');
+  }
 }
