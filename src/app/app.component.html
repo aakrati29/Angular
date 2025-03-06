@@ -1,7 +1,7 @@
 <div class = "block">
-  <!-- <h4>
-    Hello from BridgeLabz
-  </h4> -->
+  <h1>
+    Hello {{userName}}! from BridgeLabz
+  </h1>
 
   <div class="image">
     <div class="container">
@@ -15,7 +15,8 @@
   </h1>
 
   <div class="container">
-    <input type="text" [(ngModel)]="userName" placeholder="Enter your name">
+    <input type="text" [(ngModel)]="userName" placeholder="Enter your name" (input)="validateInput()">
+    <span>{{errorMessage}}</span>
   </div>
 
 </div>
